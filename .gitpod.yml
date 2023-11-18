@@ -1,0 +1,8 @@
+tasks:
+  - name: Launch Nginx
+    init: docker-compose up -d
+    command: echo "Nginx is running!"
+
+ports:
+  - port: 80
+    onOpen: open-preview
