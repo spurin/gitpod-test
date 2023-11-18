@@ -5,4 +5,4 @@ tasks:
 
 ports:
   - port: 1000
-    onOpen: open-preview
+    onOpen: open-browser
